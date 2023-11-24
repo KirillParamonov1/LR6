@@ -14,11 +14,11 @@ git config user.email pkirill@gmail.com
 ```
 git clone https://github.com/Kurtyanik/LR6
 ```
-### 4. Добавление test.txt через интерфейс GitHub. Подтяжка изменений в локальный репозиторий. ([См. рис. 1](https://github.com/KirillParamonov1/LR6/blob/Otchet/photo/git-commit.png))
+### 4. Добавление file.txt через интерфейс GitHub. Подтяжка изменений в локальный репозиторий. ([См. рис. 1](https://github.com/KirillParamonov1/LR6/blob/Otchet/photo/git-commit.png))
 ```
-cat > test.txt
+cat > file.txt
 <INFORMATION>
-git add test.txt
+git add file.txt
 git commit -m "Add text file"
 ```
 ### 5. Получение истории операций для каждой из веток. ([См. рис. 2](https://github.com/KirillParamonov1/LR6/blob/Otchet/photo/git-log.png))
