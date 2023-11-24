@@ -34,11 +34,12 @@ git branch -v
 ```
 git merge branch1
 ```
+При слияние произошел конфликт. Решение, изменение текста в mergefile.txt
 ### 8. Удаление побочной ветки после слияния. ([См. рис. 5](https://github.com/KirillParamonov1/LR6/blob/Otchet/photo/git-branch%20-d.png))
 ```
 git branch -d branch1
 ```
-### 8. Сохдание нескольких изменений с коммитами. ([См. рис. 5](https://github.com/KirillParamonov1/LR6/blob/Otchet/photo/git-commit.png))
+### 8. Соpдание нескольких изменений с коммитами. ([См. рис. 5](https://github.com/KirillParamonov1/LR6/blob/Otchet/photo/git-commit.png))
 ```
 git add .
 git commit -m "<comment>"
